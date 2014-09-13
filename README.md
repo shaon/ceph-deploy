@@ -1,61 +1,30 @@
-ceph-cookbook Cookbook
+ceph-cookbook
 ======================
-TODO: Enter the cookbook description here.
-
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+Cookbook for deploying ceph cluster.
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
 
-e.g.
 #### packages
-- `toaster` - ceph-cookbook needs toaster to brown your bagel.
+- `yum` - ceph-cookbook needs toaster to brown your bagel.
 
 Attributes
 ----------
-TODO: List your cookbook attributes here.
-
-e.g.
-#### ceph-cookbook::default
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['ceph-cookbook']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
 
 Usage
 -----
 #### ceph-cookbook::default
-TODO: Write usage instructions for each cookbook.
 
 e.g.
 Just include `ceph-cookbook` in your node's `run_list`:
 
-```json
-{
-  "name":"my_node",
-  "run_list": [
-    "recipe[ceph-cookbook]"
-  ]
-}
+```bash
+mb ceph-cookbook bootstrap bootstrap.json --environment ceph_cluster -v
 ```
 
 Contributing
 ------------
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
 
-e.g.
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
 3. Write your change
@@ -65,4 +34,4 @@ e.g.
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Authors: Imran Hossain Shaon shaon@eucalyptus.com
