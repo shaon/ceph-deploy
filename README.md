@@ -6,7 +6,7 @@ Requirements
 ------------
 
 #### packages
-- `yum` - ceph-cookbook needs toaster to brown your bagel.
+- `yum`
 
 Attributes
 ----------
