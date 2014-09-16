@@ -1,4 +1,4 @@
-name             'ceph'
+name             'ceph-deploy'
 maintainer       'Imran Hossain Shaon'
 maintainer_email 'shaon@eucalyptus.com'
 license          'Apache v2'
