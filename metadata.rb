@@ -1,5 +1,5 @@
 name             'ceph'
-maintainer       'shaon.me'
+maintainer       'Imran Hossain Shaon'
 maintainer_email 'shaon@eucalyptus.com'
 license          'Apache v2'
 description      'cookbook for deploying ceph cluster'
