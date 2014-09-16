@@ -1,4 +1,4 @@
-name             'ceph-cookbook'
+name             'ceph'
 maintainer       'shaon.me'
 maintainer_email 'shaon@eucalyptus.com'
 license          'Apache v2'
