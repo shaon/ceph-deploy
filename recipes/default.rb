@@ -31,6 +31,12 @@ execute "ceph-deploy new #{node['hostname']}" do
 end
 
 # host key verification
+node['ceph']['mons'].each do |mon|
+  execute "add host key" do
+    command "ssh-keyscan #{mon} >> /root/.ssh/known_hosts"
+  end
+end
+
 node['ceph']['osds'].each do |key, osd|
   execute "add host key" do
     command "ssh-keyscan #{osd['ipaddr']} >> /root/.ssh/known_hosts"
