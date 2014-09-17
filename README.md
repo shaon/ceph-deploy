@@ -19,7 +19,7 @@ e.g.
 Just include `ceph-cookbook` in your node's `run_list`:
 
 ```bash
-mb ceph-cookbook bootstrap bootstrap.json --environment ceph_cluster -v
+mb ceph-deploy bootstrap bootstrap.json --environment ceph_cluster -v
 ```
 
 Contributing
