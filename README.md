@@ -1,4 +1,4 @@
-ceph-cookbook
+ceph-deploy cookbook
 ======================
 Cookbook for deploying ceph cluster.
 
@@ -13,10 +13,9 @@ Attributes
 
 Usage
 -----
-#### ceph-cookbook::default
+#### ceph-deploy::default
 
 e.g.
-Just include `ceph-cookbook` in your node's `run_list`:
 
 ```bash
 mb ceph-deploy bootstrap bootstrap.json --environment ceph_cluster -v
